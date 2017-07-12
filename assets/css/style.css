@@ -1,18 +1,53 @@
 body{
 
 	background-image: url("../images/cloudy-day.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
+p{
 
-.col-sm-2{
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+}
+
+#character_row > .col-sm-2{
 	background-color: white;
+	border-color: green;
 	border-style: solid;
 }
 
+#player_row p{
+	color: white;
+}
 
+#player_row > .col-sm-2{
+	background-color: green;
+	border-color: black;
+	border-style: solid;
+}
+#enemy_row p{
+	color: white;
+}
+#enemy_row > .col-sm-2{
+	background-color: red;
+	border-color: black;
+	border-style: solid;
+}
+#defender_row p{
+	color: white;
+}
+#defender_row > .col-sm-2{
+	background-color: black;
+	border-color: white;
+	border-style: solid;
+}
 .row{ 
 
 	margin-top: 30px;
-
+ }
+ span{
+	margin-top: 10px;
+	display: block;
 
  }
